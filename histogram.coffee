@@ -138,16 +138,28 @@ d3.chart.histogram = ->
         y_title = value
         chart
 
+    chart.n_bins = (value) ->
+        if not arguments.length
+            return n_bins
+        n_bins = value
+        chart
+
     chart.x_scale = (value) ->
         if not arguments.length
             return x_scale
         x_scale = value
         chart
 
-    chart.n_bins = (value) ->
+    chart.y_axis = (value) ->
         if not arguments.length
-            return n_bins
-        n_bins = value
+            return y_axis
+        y_axis = value
+        chart
+
+    chart.x_axis = (value) ->
+        if not arguments.length
+            return x_axis
+        x_axis = value
         chart
 
     chart.y_scale = (value) ->
