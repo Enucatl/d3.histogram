@@ -1,4 +1,4 @@
 d3.histogram
 ============
 
-reusable histogram component
+use the newer [barchart](https://github.com/Enucatl/d3.barchart)
